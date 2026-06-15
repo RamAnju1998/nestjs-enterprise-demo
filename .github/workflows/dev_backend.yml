@@ -15,8 +15,8 @@ jobs:
 
     steps:
     
-      - name: Print Message
-        run: echo "Hello from Github Actions"
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: Printing Messages
-        run: echo "Hello Ramakrishna"
+      - name: List Files
+        run: ls
