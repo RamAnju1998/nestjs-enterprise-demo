@@ -34,3 +34,8 @@ jobs:
         run: |
           cd backend
           npx prettier --check "src/**/*.ts" "test/**/*.ts"
+
+      - name: Lint check
+        run: |
+          cd backend
+          npm run lint
