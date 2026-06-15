@@ -29,3 +29,6 @@ jobs:
         run: |
           cd backend
           npm ci
+
+      - name: List Files
+        run: ls
