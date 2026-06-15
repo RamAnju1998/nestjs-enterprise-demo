@@ -33,4 +33,4 @@ jobs:
       - name: Format check
         run: |
           cd backend
-          npx prettier --check "src/**/*.ts\" \"test/**/*.ts\"
+          npx prettier --check "src/**/*.ts" "test/**/*.ts\"
