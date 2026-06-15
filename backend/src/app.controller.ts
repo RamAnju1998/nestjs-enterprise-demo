@@ -1,7 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
 
-const name = 'Ramakrishna';
 
 @Controller()
 export class AppController {
